@@ -1,0 +1,7 @@
+java interview question links'
+
+
+https://www.journaldev.com/2366/core-java-interview-questions-and-answers
+https://www.teqademy.com/java/collections/listinterface
+https://www.quora.com/How-do-I-crack-a-Java-developer-interview-easily-with-2+-years-of-experience
+https://java2blog.com/java-coding-interview-questions/

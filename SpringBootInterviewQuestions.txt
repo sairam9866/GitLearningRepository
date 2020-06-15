@@ -1,0 +1,101 @@
+SpringBoot-Interview-Quesions:
+-------------------------------------------------------------------------------------------------------
+What are the differences between Spring abd Spring Boot?
+
+Spring:
+A Web Application framework based on java.
+Provides tools and libraries to create customized web applications.
+Spring is more complex than SpringBoot
+Takes an unopinionated View.
+SpringBoot:
+A Module of Spring.
+Used to create a Spring application project which can just run/execute.
+SpringBoot is less complex than the spring framework.
+Takes an opinoinated view of paltform.
+--------------------------------------------------------------------------------------------------------
+What is SpringBoot and mention the need for it?
+SpringBoot is a spring module aims to simplify the use of the spring frameworkfor java development
+Use to create a satandlone springbases applications which you can just run
+Aims at Rapid Application Development
+SpringBoot framework come with
+Auto dependency resolution
+Embedded HTTP Servers
+Auto-Configuration
+Management endpoints
+SpringBoot CLI
+--------------------------------------------------------------------------------------------------------
+What are the advantages of SpringBoot?
+Provides autocinfiguration to load a set of default configuration for a quick start of the application.
+Creates stand-alone application with a range of non-functional features that are common to large classes of project.
+Spring Boot comes with embedded tomcat,Servlet Containers jetty to avoide the Usga of War Files.
+Provodes CLI tools to develop and test applications.
+ Comes with spring boot starters to ensure depedency management and also provides varioussecurity metrics.
+Consists of wide range og APIS for monitoring and managing applications in dev and prod.
+Integrates with spring Ecosysyste, like Spring JDBC, Spring ORM, SpringData,SpringSecurity easily by avoiding boilerplate code.
+---------------------------------------------------------------------------------------------------------------------------
+Mention a feew features of springboot
+SpringCLI.
+SpringInitializer.
+SpringActuator.
+Starter Dependency
+Auto-Configuration.
+Logging and security.
+-----------------------------------------------------------------------------------------------------------------------------
+Explain how to create a spring boot application using maven
+SpringBootCli
+SpringBoot Project Wizard
+SpringBoot Initializer
+Spring Maven project
+------------------------------------------------------------------------------------------------------------------------------
+What are the possible sources of external configuration?
+ApplicationProperties.
+CommandLineProperties
+ProfileSpecificProperties.
+--------------------------------------------------------------------------------------------------------------------------
+can you explain what happens in the background when a spring boot application is "Run as Java Application"?
+When a SpringBoot application is executed as "Run as Java Application" then it automatically launches up the tomcat server as soon as it sees that you are
+developing a webapplication.
+------------------------------------------------------------------------------------------------------------
+What are the SpringBoot startes and what  are available the starters?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

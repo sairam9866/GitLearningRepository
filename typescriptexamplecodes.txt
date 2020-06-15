@@ -1,0 +1,151 @@
+let aa:string[] = ["ts","js"];
+let ab: Array<string> = ["ts","ts"];
+
+let ac: [number, string];
+
+//enum for set of  constants
+
+enum fruit 
+{
+    Apple = 1,  
+    Banana,  //values are auto incremented like 2
+    Mango   //3
+}
+let fruitName: String = fruit[2]
+console.log(fruitName)
+
+let a:any;
+a=10;
+a="number";
+console.log(a);
+
+
+//////////Class and object in typescript////////////
+class myclass{
+
+j : number;
+constructor(k: number)
+{
+    this.j=k;
+}
+value()
+{return("the number is "+this.j) 
+}
+
+}
+
+let myobject = new myclass(10);
+console.log(myobject.value());
+
+
+////////////////////Extnds in TYpe script////////////////
+// class child extends parent
+
+class ParentClass
+{
+    j : number;
+
+    constructor(k : number)
+    {
+        this.j=k
+    }
+}
+class ChildClass extends ParentClass
+{
+    l : number;
+
+    constructor(m : number, k:number)
+    {
+        super(k);
+        this.l=m;
+    }
+    value()
+    {
+        return("value form parent is " +this.j+ "and the valeu from chils class is" +this.l);
+    }
+}
+
+let childObject = new ChildClass(20,30)
+console.log(childObject.value());
+
+
+
+
+function myfun()
+{
+    for(let i=1; i<=2; i++)
+    {
+        console.log("Welcome to Angular Learning");
+    }
+    console.log("valuye of i is :" +i); //i error beacuse let is block level varibale used for that for loop block not outside
+
+}
+myfun();
+let ah: Object;//to create type object
+///////////////////////////////////////////////////////////////////////////
+interface MyIntegers
+{
+    s : number;
+    t : String;
+    myfunction();
+}
+
+class impl implements MyIntegers{
+    s : number;
+    t : string;
+    constructor(s:number,t:string)
+    {
+        this.s=s;
+        this.t=t;
+    }
+    myfunction()
+    {
+        console.log("Implementing an interface " +this.s+ this.t);
+    }
+}
+let myObject = new impl(1,"Sairam");
+console.log(myObject.myfunction());
+//////////////////////////////////////////////////////
+
+
+
+let a: number;
+let b:boolean;
+let c:string;
+let d: any;
+let e: number[] = [];
+let f: any[] = [a,b,c];
+
+const ColorRed = 0;
+const ColorGreen = 1;
+const ColorBlue = 2;
+
+enum Color { Red=0, Green=1 , blue=2, purple = 3};
+let backGroundColor = Color.Red;
+
+let message = "abc";
+message.toUpperCase();
+message.endsWith('c');
+
+let doLog = (message) =>
+{
+    console.log(message);
+}
+interface Point{
+    x:number,
+    y:number,
+    draw: () => void
+}
+
+let drawPoints = (point: Point ) => {
+    point.x=10,
+    point.y=20
+
+}
+
+let getDistance = (pointA: Point, PointB: Point) => {
+
+}
+
+
+
